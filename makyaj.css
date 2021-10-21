@@ -1,0 +1,33 @@
+.personel_renkleri {
+    color: rgb(0,0,255) ; background: brown;
+}
+  body   {
+    background-color:  rgb(168, 168, 168); 
+  }
+  h1 {
+  color: rgb(0, 255, 85);
+  text-align: right;
+}
+
+          th, td {
+        border: 1px solid black;
+        border-radius: 10px;
+        
+      }
+
+      .myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+      }
+      .nost {
+
+
+        border: 10px forestgreen;
+        
+        
+    }
+    
+
+
+

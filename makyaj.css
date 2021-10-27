@@ -1,5 +1,5 @@
 .personel_renkleri {
-    color: rgb(251, 255, 0) ; background: rgb(0, 240, 72);
+    color: rgb(0, 0, 0) ; 
 }
   
     
@@ -10,13 +10,11 @@
 
           th, td {
         border: 1px solid black;
-        border-radius: 10px;
+       
         
       }
 
       .myDiv {
-  border: 5px outset red;
-  background-color: rgb(0, 255, 42);
   text-align: left;
       }
       .nost {
@@ -33,7 +31,7 @@
 
 a {
   color: red;
-  background-color: yellow;
+  background-color: white;
 }
 a:visited{
   color: chocolate;
@@ -75,13 +73,19 @@ h2{
   text-align: left;
 }
 
+/* h2.j{
+  color: aqua;
+}
+
+h2.k{
+  color: black;
+}
+*/
 p{
-  background-color: lightgrey;
+  background-color: white;
   width: 300px;
-  border: 2px solid black;
-  outline: 10px solid green;
-  padding: 50px;
-  margin: 20px;
+  font-family:Georgia;
+ 
 }
 
   p.ex2 {
@@ -98,9 +102,126 @@ a.ex3{
   border: 5px solid green;
 }
 
+div {
+  display: block;
+}
+
+/* ÖRNEK BİR CLASS */
+.kl{
+  color: maroon;
+}
 
 
 
 
+
+
+/* LİSTELEME ; */
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+} 
+
+
+
+
+
+
+
+
+table{
+  border-collapse:collapse;
+  width: 100%;
+}
+
+th,td{
+  text-align: left;
+  padding: 8px;
+  vertical-align: bottom;
+}
+
+tr:nth-child(even) {
+  background-color: #d1bdbd;
+}
+
+.kalin{
+ font-weight: bold ;
+}
+
+
+
+
+
+
+
+
+
+
+
+#rasttab{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#rasttab td, #rasttab th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#rasttab tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+#rasttab tr:hover{
+  background-color: rgb(99, 99, 99);
+}
+#rasttab th {
+  padding-top:12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+
+
+/* display: inline aynı satıra sığdırma */
+li{
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* . ile başlayan = class
+/* . dan sonra başlayan class öncesi ana element */
 
 /* live server */

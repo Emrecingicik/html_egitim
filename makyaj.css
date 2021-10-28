@@ -1,3 +1,9 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
 .personel_renkleri {
     color: rgb(0, 0, 0) ; 
 }
@@ -201,7 +207,7 @@ tr:nth-child(even) {
 
 
 /* display: inline aynı satıra sığdırma */
-li{
+.li{
   display: inline;
 }
 
@@ -254,7 +260,7 @@ img {
 /* over flow kullanımı = auto, scroll, hidden, visible */
 div.overflow {
   background-color: #eee;
-  width: 200px;
+  width: 500px;
   height: 100px;
   border: 1px dotted black;
   overflow: auto;
@@ -288,6 +294,31 @@ div.overflow {
 }
 
 
+
+span.a {
+  display: inline; /* the default for span */
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border: 2px solid blue;  
+  background-color: yellow; 
+}
+
+
+/* üst menü yaratma */
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+} 
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
 
 
 /* . ile başlayan = class

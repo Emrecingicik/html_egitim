@@ -1,3 +1,9 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
 .personel_renkleri {
     color: rgb(0, 0, 0) ; 
 }
@@ -201,24 +207,122 @@ tr:nth-child(even) {
 
 
 /* display: inline aynı satıra sığdırma */
+<<<<<<< HEAD
 li.n{
+=======
+.li{
+>>>>>>> 69f58cbedff00c3e533996ffceb6b6441f2e158f
   display: inline;
 }
 
 
+/* Z-index fotoğrafı / yazıyı vb. arkaya öne alma */
+/* float= konum belirleme */
+img {
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  float: right;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
 
 
 
+/* over flow kullanımı = auto, scroll, hidden, visible */
+div.overflow {
+  background-color: #eee;
+  width: 500px;
+  height: 100px;
+  border: 1px dotted black;
+  overflow: auto;
+}
 
 
 
+.div1{
+  float: left;
+  padding: 10px;
+  border: 3px solid#73AD21;
+}
+
+
+.div2{
+  padding: 10px;
+  border: 3px   solid red;
+}
+
+.div3{
+  float: left;
+  padding: 10px;
+  border: 3px solid #73AD21;
+}
+
+
+.div4 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+}
 
 
 
+span.a {
+  display: inline; /* the default for span */
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border: 2px solid blue;  
+  background-color: yellow; 
+}
 
 
+/* üst menü yaratma */
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+} 
 
-
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
 
 /* . ile başlayan = class
 /* . dan sonra başlayan class öncesi ana element */
